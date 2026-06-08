@@ -16,9 +16,7 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "strictNullChecks": false,
-    "incremental": false,
-    "diagnostics": false,
-    "tsBuildInfoFile": null
+    "incremental": false
   },
   "include": ["src"],
   "exclude": ["node_modules"]
