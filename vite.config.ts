@@ -13,8 +13,5 @@ export default defineConfig({
         warn(warning);
       }
     }
-  },
-  optimizeDeps: {
-    force: true
   }
 });
