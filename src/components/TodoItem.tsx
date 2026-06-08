@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Trash2, Pencil, Check, X } from 'lucide-react';
 import clsx from 'clsx';
-import { Todo } from '@/types';
+import { Todo } from '../types';
 
 type TodoItemProps = {
   todo: Todo;

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Todo, Priority, Filter } from '@/types';
+import { Todo, Priority, Filter } from '../types';
 
 const STORAGE_KEY = 'todo-app-todos';
 

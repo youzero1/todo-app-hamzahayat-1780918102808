@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { Filter } from '@/types';
+import { Filter } from '../types';
 
 type TodoFooterProps = {
   filter: Filter;

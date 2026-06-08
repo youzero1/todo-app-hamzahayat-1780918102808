@@ -7,5 +7,13 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: { alias: { "@": path.resolve(__dirname, "./src") } },
   server: { host: "0.0.0.0", port: 5173, hmr: false },
-  build: { commonjsOptions: { transformMixedEsModules: true } },
+  build: {
+    commonjsOptions: { transformMixedEsModules: true },
+    rollupOptions: {
+      onwarn(warning, warn) {
+        if (warning.code === 'MODULE_LEVEL_DIRECTIVE') return;
+        warn(warning);
+      }
+    }
+  },
 });

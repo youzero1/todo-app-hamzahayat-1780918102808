@@ -1,8 +1,8 @@
-import { useTodos } from '@/hooks/useTodos';
-import TodoInput from '@/components/TodoInput';
-import TodoList from '@/components/TodoList';
-import TodoFooter from '@/components/TodoFooter';
-import TodoStats from '@/components/TodoStats';
+import { useTodos } from './hooks/useTodos';
+import TodoInput from './components/TodoInput';
+import TodoList from './components/TodoList';
+import TodoFooter from './components/TodoFooter';
+import TodoStats from './components/TodoStats';
 
 export default function TodoPage() {
   const {
