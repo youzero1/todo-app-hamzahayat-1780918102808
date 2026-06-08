@@ -15,7 +15,8 @@
     "noImplicitAny": false,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "incremental": false
   },
   "include": ["src"],
   "exclude": ["node_modules"]
